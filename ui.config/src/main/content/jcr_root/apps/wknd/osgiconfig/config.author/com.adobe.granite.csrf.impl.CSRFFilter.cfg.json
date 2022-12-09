@@ -16,7 +16,7 @@
     "/content/communities/scorm/RecordResults",
     "/graphql",
     "/libs/dam/cfm/headless/endpoints/content/graphql",
-    "/content/_cq_graphql/wknd-shared/endpoint.json"
+    "/content/cq:graphql/wknd-shared/endpoint"
   ],
   "filter.methods":[
     "POST",

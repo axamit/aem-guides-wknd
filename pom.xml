@@ -35,6 +35,7 @@
     <modules>
         <module>all</module>
         <module>core</module>
+        <module>graph-ql</module>
         <module>ui.frontend</module>
         <module>ui.apps</module>
         <module>ui.apps.structure</module>
@@ -797,6 +798,14 @@ Bundle-DocURL:
                 <version>1.0.1</version>
                 <scope>test</scope>
             </dependency>
+
+            <!-- Meetup dependency-->
+            <dependency>
+                <groupId>com.adobe</groupId>
+                <artifactId>com.adobe.aem.graphql.sites.api</artifactId>
+                <version>1.0</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
